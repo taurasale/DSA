@@ -1,0 +1,22 @@
+import pandas as pd
+import numpy as np
+import pathlib
+
+df2015 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2015.csv')
+df2016 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2016.csv')
+df2017 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2017.csv')
+df2018 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2018.csv')
+df2019 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2019.csv')
+df2020 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2020.csv')
+df2021 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2021.csv')
+df2022 = pd.read_csv(r'C:\Users\taura\Downloads\archive\2022.csv')
+
+
+def happiness(x):
+    i = x
+    for i in df2015, df2016:
+        i = df2015.loc[df2015['Country'] == x, 'Happiness Score'].iloc[0]
+
+
+
+print(happiness("Canada"))
