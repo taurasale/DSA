@@ -17,6 +17,10 @@ def happiness(x):
     for i in df2015, df2016:
         i = df2015.loc[df2015['Country'] == x, 'Happiness Score'].iloc[0]
 
+df2015n = df2015[['Country', 'Happiness Score', 'Happiness Rank']]
+df2016n = df2016[['Country', 'Happiness Score', 'Happiness Rank']]
+dfn = pd.merge(df2015n,df2016n)
 
+df2016n.rename(columns={'Country':'Country2016'}, inplace=True)
 
-print(happiness("Canada"))
+dfn = pd.merge(df2015n,df2016n)
