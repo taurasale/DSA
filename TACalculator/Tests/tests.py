@@ -1,6 +1,6 @@
 import unittest
 
-from src.calculator import Calculator
+from TACalculator.calculator import Calculator
 
 
 class TestCalculator(unittest.TestCase):
@@ -16,11 +16,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(self.calculator.memory, 10)
         self.assertEqual(self.calculator.reset(), 0)
 
-    def test_subtract(self):
+    def test_substract(self):
         self.assertEqual(self.calculator.memory, 0)
-        self.assertEqual(self.calculator.subtract(2), -2)
-        self.assertEqual(self.calculator.subtract(3), -5)
-        self.assertEqual(self.calculator.subtract(5), -10)
+        self.assertEqual(self.calculator.substract(2), -2)
+        self.assertEqual(self.calculator.substract(3), -5)
+        self.assertEqual(self.calculator.substract(5), -10)
         self.assertEqual(self.calculator.memory, -10)
         self.assertEqual(self.calculator.reset(), 0)
 

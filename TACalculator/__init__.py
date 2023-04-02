@@ -1,3 +1,3 @@
 from calculator import Calculator
 
-t = Calculator()
+__version__ = 0.01

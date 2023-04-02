@@ -1,10 +1,10 @@
 import setuptools
 setuptools.setup(
- name='TA-Calculator-v1',
+ name='TACalculator-v1',
  version='0.1',
  author="Tauras Aleksandravicius",
  author_email="tauras.al@gmail.com",
- description="Basic calculator, performing basic functions",
+ description="Simple calculator, performing basic functions",
  packages=setuptools.find_packages(),
  classifiers=[
  "Programming Language :: Python :: 3",
