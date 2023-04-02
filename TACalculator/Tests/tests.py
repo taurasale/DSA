@@ -1,6 +1,6 @@
 import unittest
 
-from TACalculator.calculator import Calculator
+from TACalculator.file.calculator import Calculator
 
 
 class TestCalculator(unittest.TestCase):

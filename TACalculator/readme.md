@@ -13,12 +13,12 @@ For the Module1 Sprint 1 project I was supposed to create a Python package that 
 
 ### 1. First of all, let's install the package.
 ``` shell
-pip install pavadinimas
+pip install TACalculator-v2
 ```
 ### 2. Import module "Calculator" from a package
 
 ```python
-from TACalculator.calculator import Calculator
+from file.calculator import Calculator
 ```
 ### 3. Create an instance of the Calculator class:
 
@@ -38,10 +38,10 @@ calculator.add(12.0)
 ```
 
 
-## Subtraction
-To subtract a value from the in-memory value, use the `subtract(value)` method. This will subtract 5.0 from the memory value and will return the new value.
+## Substraction
+To subtract a value from the in-memory value, use the `substract(value)` method. This will subtract 5.0 from the memory value and will return the new value.
 ```python
-calculator.subtract(5.0)
+calculator.substract(5.0)
 ``` 
 
 
@@ -79,7 +79,7 @@ from calculator import Calculator
 calculator = Calculator()
 
 calculator.add(5.0)         # returns 5.0
-calculator.subtract(3.0)    # returns 2.0
+calculator.substract(3.0)    # returns 2.0
 calculator.multiply(4.0)    # returns 8.0
 calculator.divide(2.0)      # returns 4.0
 calculator.root(2)          # returns 2.0

@@ -1,6 +1,6 @@
 import setuptools
 setuptools.setup(
- name='TACalculator-v1',
+ name='TACalculator-v3',
  version='0.1',
  author="Tauras Aleksandravicius",
  author_email="tauras.al@gmail.com",
