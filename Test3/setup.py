@@ -1,15 +1,15 @@
 import setuptools
 setuptools.setup(
- name='kalktastau123',
- version='0.3',
- author="tauras",
- author_email="tauro@gmail.com",
- description="tau",
+ name='Tauras-Calculator',
+ version='0.1',
+ author="Tauras Aleksandravicius",
+ author_email="tauras.al@gmail.com",
+ description="Basic calculator, performing basic functions",
  packages=setuptools.find_packages(),
  classifiers=[
  "Programming Language :: Python :: 3",
  "License :: OSI Approved :: MIT License",
  "Operating System :: OS Independent"],
- long_description="""# Markdown supported!\n\n* Cheer\n* Celebrate\n""",
+ long_description="""# Hey! Please refer to my github! for additional information! \n\ github.com/taurasale """,
  long_description_content_type='text/markdown',
 )
