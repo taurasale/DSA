@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+taurokalkas/__init__.py
+taurokalkas/calc.py
+taurokalkasv2.egg-info/PKG-INFO
+taurokalkasv2.egg-info/SOURCES.txt
+taurokalkasv2.egg-info/dependency_links.txt
+taurokalkasv2.egg-info/top_level.txt

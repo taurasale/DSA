@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+kalktastau123.egg-info/PKG-INFO
+kalktastau123.egg-info/SOURCES.txt
+kalktastau123.egg-info/dependency_links.txt
+kalktastau123.egg-info/top_level.txt
+taurokalkas/__init__.py
+taurokalkas/calc.py

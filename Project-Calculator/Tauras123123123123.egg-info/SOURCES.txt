@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+Tauras123123123123.egg-info/PKG-INFO
+Tauras123123123123.egg-info/SOURCES.txt
+Tauras123123123123.egg-info/dependency_links.txt
+Tauras123123123123.egg-info/top_level.txt
