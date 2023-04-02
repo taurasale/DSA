@@ -1,7 +1,7 @@
 class Calculator:
-    """
+    '''
     This class represents calculator that can perform simple arithmetic operations. Calculator has a memory.
-    """
+    '''
     def __init__(self):
         '''
         Sets initial calculator's memory to 0.
@@ -15,8 +15,6 @@ class Calculator:
         :param value: Float/ int value to be added to the memory value.
         :return: memory value after addition.
         '''
-        if not isinstance(value, (float)):
-            raise TypeError("Input must be a number")
         self.memory += value
         return self.memory
 
